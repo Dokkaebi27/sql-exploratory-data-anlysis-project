@@ -84,9 +84,9 @@ CASE
   	 ELSE '50 and above'
 END AS age_group,
 CASE 
-      WHEN lifespan >= 12 AND total_sales > 5000 THEN 'VIP'
-      WHEN lifespan >= 12 AND total_sales <= 5000 THEN 'Regular'
-      ELSE 'New'
+    WHEN lifespan >= 12 AND total_sales > 5000 THEN 'VIP'
+    WHEN lifespan >= 12 AND total_sales <= 5000 THEN 'Regular'
+    ELSE 'New'
 END AS customer_segment,
     last_order_date,
     DATEDIFF(month, last_order_date, GETDATE()) AS recency,
@@ -99,8 +99,10 @@ END AS customer_segment,
 CASE WHEN total_sales = 0 THEN 0
 	   ELSE total_sales / total_orders
 END AS avg_order_value,
+	
 -- Compuate average monthly spend
 CASE WHEN lifespan = 0 THEN total_sales
      ELSE total_sales / lifespan
 END AS avg_monthly_spend
+	
 FROM customer_aggregation
