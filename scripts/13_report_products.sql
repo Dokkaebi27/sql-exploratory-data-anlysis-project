@@ -48,9 +48,9 @@ FROM Gold.fact_sales f
 LEFT JOIN Gold.dim_products p
     ON f.product_key = p.product_key
 WHERE order_date IS NOT NULL  -- only consider valid sales dates
-),
+)
 
-product_aggregations AS (
+,product_aggregations AS (
 /*---------------------------------------------------------------------------
 2) Product Aggregations: Summarizes key metrics at the product level
 ---------------------------------------------------------------------------*/
