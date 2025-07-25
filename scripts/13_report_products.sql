@@ -89,9 +89,8 @@ SELECT
     last_sale_date,
     DATEDIFF(MONTH, last_sale_date, GETDATE()) AS recency_in_months,
 CASE
-		WHEN total_sales > 50000 THEN 'High-Performer'
-		WHEN total_sales >= 10000 THEN 'Mid-Range'
-		ELSE 'Low-Performer'
+    WHEN total_sales > 50000 THEN 'High-Performer'
+    WHEN total_sales >= 10000 THEN 'Mid-Range'ELSE 'Low-Performer'
 END AS product_segment,
   	lifespan,
   	total_orders,
@@ -101,7 +100,7 @@ END AS product_segment,
   	avg_selling_price,
 -- Average Order Revenue (AOR)
 CASE 
-		WHEN total_orders = 0 THEN 0
+    WHEN total_orders = 0 THEN 0
 		ELSE total_sales / total_orders
 END AS avg_order_revenue,
 
