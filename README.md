@@ -9,11 +9,20 @@ This repository contains SQL queries designed to help data analysts and BI profe
 
 This Project is licensed under the [MIT License](LICENSE). You are free, modify, and share this project with proper attribution.
 
-## 🙍 About Me
+## 🙍 About Me  
 
-Hi there! I'm **Ahmad Zaki Amani** 
+Hi, I'm **Ahmad Zaki Amani** 👋  
 
-Let's stay in touch! Feel free to connect with me on the following platform:
+✨ I'm passionate about **Data Analytics** and **Business Intelligence**, focusing on building dashboards, creating data visualizations, and turning raw data into actionable insights.  
 
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ahmadzaki27.az@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ahmad-zaki-amani-ab091635b/)
+💡 This project is part of my portfolio, where I showcase skills in:  
+- Data visualization & storytelling  
+- Dashboard design (Power BI, Tableau)  
+- Data transformation & analysis  
+- Business Intelligence solutions
+
+📫 Let’s connect and collaborate!  
+
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ahmadzaki27.az@gmail.com) 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ahmad-zaki-amani-ab091635b/)  
+
