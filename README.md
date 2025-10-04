@@ -9,6 +9,8 @@ This repository contains SQL queries designed to help data analysts and BI profe
 
 This Project is licensed under the [MIT License](LICENSE). You are free, modify, and share this project with proper attribution.
 
+---
+
 ## 🙍 About Me  
 
 Hi, I'm **Ahmad Zaki Amani** 👋  
